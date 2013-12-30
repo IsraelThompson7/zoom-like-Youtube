@@ -52,7 +52,7 @@
     [UIView animateWithDuration:0.0 animations:^(void) {
         [UIView beginAnimations:@"animationOff" context:NULL];
         [UIView setAnimationDuration:1.3f];
-        [self.imageHolderView setFrame:CGRectMake(11, 20, 285, 225)];
+        [self.imageHolderView setFrame:CGRectMake(11, 20, 290, 225)];
         [self.imageView setFrame:CGRectMake(04, 13, 280, 200)];
         [UIView commitAnimations];
     }];
